@@ -1,13 +1,15 @@
 # Normal2Roughness
 A tool for Unity uses normal maps to create more accurate roughness mipmaps.
 
-This tool is designed to to reduce specular aliasing in specific conditions where normals get smeared by the mipmapping process. It's especially useful for displaying detailed metalic surfaces in VR. Works best when texturs are the same size.
+![Normal2Roughness in action](https://davidball.dev/assets/images/modify-strength.gif)
+
+This tool is designed to to reduce specular aliasing in specific conditions where normals get smeared by the mipmapping process. It's especially useful for displaying detailed metallic surfaces in VR and Works best when textures are the same size.
 
 Features:
 ---------
 - Drag and drop materials to convert them (SRP and custom shader textures must be set manually)
 - Zero performance cost.
-- Adjustable Stength modifier
+- Adjustable Strength modifier
 - Ideal for improving VR image quality
 
 Requirements
